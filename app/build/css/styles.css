@@ -1,0 +1,13 @@
+.box {
+  width: 400px;
+  height: auto;
+  background-color: red; }
+  .box__text {
+    font-size: 16px;
+    margin: 50px auto;
+    padding: 50px 0;
+    color: #fff;
+    width: 60%; }
+  @media (max-width: 400px) {
+    .box .box__text {
+      font-size: 100px; } }
